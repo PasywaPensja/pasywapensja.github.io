@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useGlobalScope",["BizKitScopingContext","personalGlobalScope","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react").useContext;function a(){var a=h(c("BizKitScopingContext"));a=a.globalScope;return(a=a)!=null?a:d("personalGlobalScope").personalGlobalScope}g["default"]=a}),98);

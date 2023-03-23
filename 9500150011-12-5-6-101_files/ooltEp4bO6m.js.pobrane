@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useBizKitSelectedAssets",["BizKitScopingContext","getAssetsByType","getFirstAssetOfType","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react").useContext;function a(){var a=h(c("BizKitScopingContext")),b=a.assets,d=a.setAssets;a=(a=(a=c("getFirstAssetOfType")(b,"PAGE"))!=null?a:b[0])!=null?a:null;return{assetID:a==null?void 0:a.id,assets:b,assetsByType:c("getAssetsByType")(b),assetType:a==null?void 0:a.type,setAssets:d,setSelectedLinkedAsset:function(a){d(a.assets)}}}g["default"]=a}),98);

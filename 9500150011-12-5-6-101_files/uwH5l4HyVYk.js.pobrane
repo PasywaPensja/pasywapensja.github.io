@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("personalGlobalScope",["CurrentUser"],(function(a,b,c,d,e,f,g){"use strict";a={id:c("CurrentUser").getAccountID(),type:"PERSONAL"};g.personalGlobalScope=a}),98);

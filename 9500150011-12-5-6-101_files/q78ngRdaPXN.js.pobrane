@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("useBusinessAssets",["getBusinessAssetList","react","useBizKitSelectedAssets","useGlobalScope"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react").useMemo;function a(a){var b=c("useBizKitSelectedAssets")();b=b.assets;var d=a==null?b:a,e=c("useGlobalScope")();return h(function(){return c("getBusinessAssetList")(d,e)},[e,d])}g["default"]=a}),98);
